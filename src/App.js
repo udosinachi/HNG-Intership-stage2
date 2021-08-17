@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Header from './components/Header'
 
 function App() {
   return (
-    <div className="App">
-      <img src="https://hng.tech/img/brand-logo.png" alt="" />
+    <div className='App'>
+      <Header />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
