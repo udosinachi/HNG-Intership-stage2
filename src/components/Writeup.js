@@ -27,6 +27,12 @@ const Writeup = () => {
           <p>
             <b>Twitter:</b> @udosinachii
           </p>
+          <p>
+            <b>HNG Intership link:</b>
+            <a href='https://internship.zuri.team/'>
+              https://internship.zuri.team/
+            </a>
+          </p>
         </div>
         <div className='education'>
           <div>
