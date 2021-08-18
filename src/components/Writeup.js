@@ -13,13 +13,19 @@ const Writeup = () => {
             user friendly interface.
           </p>
           <p>
-            <b>Github:</b> https://github.com/udosinachi
+            <b>Github: </b>
+            <a href='https://github.com/udosinachi'>
+              https://github.com/udosinachi
+            </a>
           </p>
           <p>
-            <b>Linkedin:</b> https://www.linkedin.com/in/udosinachi
+            <b>Linkedin:</b>
+            <a href='https://www.linkedin.com/in/udosinachi'>
+              https://www.linkedin.com/in/udosinachi
+            </a>
           </p>
           <p>
-            <b>Twitter:</b> @udosinachi
+            <b>Twitter:</b> @udosinachii
           </p>
         </div>
         <div className='education'>
