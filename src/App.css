@@ -1,7 +1,6 @@
 .main-header {
   overflow: hidden;
   background-color: whitesmoke;
-  margin: 0 10px;
 }
 .header {
   margin: 20px;
@@ -12,14 +11,9 @@
   width: 40%;
 }
 .main-body {
-  border: 1px solid red;
-  margin: 0 30px;
-  display: flex;
-  justify-content: space-evenly;
+  background-color: whitesmoke;
 }
-.image {
-  border: 3px solid black;
-}
+
 .image-div {
   display: flex;
   justify-content: center;
@@ -42,7 +36,56 @@
   padding: 0;
   font-size: 35px;
 }
-.writeup {
-  border: 1px solid green;
-  padding: 0 20px;
+.main-writeup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.main-writeup h2 {
+  color: darkcyan;
+}
+.sub-writeup {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid black;
+  margin: 0;
+  padding: 0;
+}
+.sub-writeup2 {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  border: 3px solid black;
+}
+@media (max-width: 600px) {
+  .sub-writeup,
+  .sub-writeup2 {
+    flex-wrap: wrap;
+  }
+}
+.skill,
+.education,
+.profile,
+.contact {
+  width: 80%;
+  padding: 0;
+  margin: 10px;
+  border: 3px solid black;
+}
+.profile p {
+  width: 90%;
+  border: 3px solid black;
+}
+.skill ul {
+  list-style-type: none;
+}
+.footer {
+  color: 'white';
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+  border-top: 1px solid grey;
 }
