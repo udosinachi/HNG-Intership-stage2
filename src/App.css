@@ -10,6 +10,11 @@
 .logo {
   width: 40%;
 }
+@media (max-width: 750px) {
+  .logo {
+    width: 60%;
+  }
+}
 .main-body {
   background-color: whitesmoke;
 }
@@ -20,7 +25,7 @@
 }
 .profile-image {
   border-radius: 50%;
-  width: 250px;
+  width: 200px;
 }
 .text {
   text-align: center;
@@ -36,52 +41,69 @@
   padding: 0;
   font-size: 35px;
 }
+@media (max-width: 550px) {
+  .h1 {
+    font-size: 25px;
+  }
+  .logo {
+    width: 80%;
+  }
+}
 .main-writeup {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .main-writeup h2 {
+  text-align: center;
   color: darkcyan;
 }
 .sub-writeup {
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  border: 3px solid black;
-  margin: 0;
-  padding: 0;
-}
-.sub-writeup2 {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   margin: 0;
   padding: 0;
-  border: 3px solid black;
+}
+.sub-writeup2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
 }
 @media (max-width: 600px) {
   .sub-writeup,
   .sub-writeup2 {
+    display: block;
+  }
+}
+@media (max-width: 720px) {
+  .sub-writeup,
+  .sub-writeup2 {
     flex-wrap: wrap;
+  }
+  .skill,
+  .education,
+  .profile,
+  .contact {
+    width: 90% !important;
+    border-bottom: 1px solid grey !important;
+  }
+  .main-writeup h2 {
+    text-align: left !important;
+    color: darkcyan;
   }
 }
 .skill,
 .education,
 .profile,
 .contact {
-  width: 80%;
+  width: 40%;
   padding: 0;
   margin: 10px;
-  border: 3px solid black;
 }
-.profile p {
-  width: 90%;
-  border: 3px solid black;
-}
-.skill ul {
-  list-style-type: none;
-}
+
 .footer {
   color: 'white';
   text-align: center;
