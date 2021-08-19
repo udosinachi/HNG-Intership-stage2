@@ -14,24 +14,18 @@ const Writeup = () => {
           </p>
           <p>
             <b>Github: </b>
-            <a href='https://github.com/udosinachi'>
-              https://github.com/udosinachi
-            </a>
+            <a href='https://github.com/udosinachi'>Github</a>
           </p>
           <p>
             <b>Linkedin:</b>
-            <a href='https://www.linkedin.com/in/udosinachi'>
-              https://www.linkedin.com/in/udosinachi
-            </a>
+            <a href='https://www.linkedin.com/in/udosinachi'>Linkedin</a>
           </p>
           <p>
             <b>Twitter:</b> @udosinachii
           </p>
           <p>
             <b>HNG Intership link:</b>
-            <a href='https://internship.zuri.team/'>
-              https://internship.zuri.team/
-            </a>
+            <a href='https://internship.zuri.team/'>HNG Internship link</a>
           </p>
         </div>
         <div className='education'>
