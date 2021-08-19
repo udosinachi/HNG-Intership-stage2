@@ -21,11 +21,12 @@ const Writeup = () => {
             <a href='https://www.linkedin.com/in/udosinachi'>Linkedin</a>
           </p>
           <p>
-            <b>Twitter:</b> @udosinachii
+            <b>Twitter:</b>
+            <a href='https://twitter.com/udosinachii?s=08'> @udosinachii</a>
           </p>
           <p>
             <b>HNG Intership link:</b>
-            <a href='https://internship.zuri.team/'>HNG Internship link</a>
+            <a href='https://internship.zuri.team/'> HNG Internship link</a>
           </p>
         </div>
         <div className='education'>
